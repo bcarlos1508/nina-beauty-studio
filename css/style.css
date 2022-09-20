@@ -1,0 +1,226 @@
+*
+{
+    margin:0;
+    padding:0;
+    color:black;
+    text-decoration: none;
+    background-color: #ffecf4;
+    font-family: 'Antonio', sans-serif;
+}
+
+.logo
+{
+    width: 15%;
+    margin-left: 1%;
+} 
+header nav ul li
+{
+    display:inline;
+}
+header nav ul li a
+{
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    padding:60px;
+    margin-bottom: 10px;
+}
+header nav ul
+{
+    margin: 8px 0px;
+}
+.section1 .banner
+{
+    width: 100%;
+}
+.section1
+{
+    position: relative;
+}
+.texto-encima
+{
+    font-family: 'Oleo Script', cursive;
+    position: absolute;
+    top: 12%;
+    left: 9%;
+    transform: translate(10%, -50%);
+    font-size: 80px;
+    color:white;
+    background-color:transparent;
+    text-align: center;
+}
+.texto-encima-quien
+{
+    font-family: 'Oleo Script', cursive;
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    transform: translate(-20%, -50%);
+    font-size: 80px;
+    color:white;
+    background-color:transparent;
+    text-align: right;
+}
+.texto-encima-quien2
+{
+    font-family: 'Oleo Script', cursive;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    transform: translate(-20%, -50%);
+    font-size: 70px;
+    color:white;
+    background-color:transparent;
+    text-align: left;
+}
+.texto-encima-serv
+{
+    font-family: 'Oleo Script', cursive;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    transform: translate(-20%, -50%);
+    font-size: 80px;
+    color:white;
+    background-color:transparent;
+    text-align: right;
+}
+.texto-encima-serv2
+{
+    font-family: 'Oleo Script', cursive;
+    position: absolute;
+    top: 73%;
+    left: 79%;
+    transform: translate(-20%, -50%);
+    font-size: 45px;
+    color:white;
+    background-color:transparent;
+    text-align: right;
+}
+.texto-encima-trabajos
+{
+    font-family: 'Oleo Script', cursive;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    transform: translate(-20%, -50%);
+    font-size: 80px;
+    color:white;
+    background-color:transparent;
+    text-align: right;
+}
+.texto-encima-trabajos2
+{
+    font-family: 'Oleo Script', cursive;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    transform: translate(-20%, -50%);
+    font-size: 70px;
+    color:white;
+    background-color:transparent;
+    text-align: left;
+}
+.texto-encima-contacto
+{
+    font-family: 'Oleo Script', cursive;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    transform: translate(-20%, -50%);
+    font-size: 100px;
+    color:white;
+    background-color:transparent;
+    text-align: left;
+}
+.cont-img
+{
+    display: flex;
+    justify-content: center;
+}
+.cont-img img
+{
+    width:20%;
+    height: 100%;
+    border-radius: 15px;
+    margin: 1%;
+}
+.textoQuienSoy
+{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+.serviciosDer
+{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    font-size: 35px;
+    margin: 4%;
+    border-style:solid;
+    border-color: black;
+}
+.imgSerDer
+{
+    width:17%;
+    height: 200px;
+    border-radius: 200px;
+    margin: 2%;
+}
+.serviciosIzq
+{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-size: 35px;
+    margin: 4%;
+    border-style:solid;
+    border-color: black;
+}
+.imgSerIzq
+{
+    width:17%;
+    height: 200px;
+    border-radius: 200px;
+    margin:2%;
+}
+.galeria img
+{
+    width:30%;
+    height: 100%;
+    border-radius: 15px;
+    margin: 1%;
+}
+.contacto
+{
+    display: flex;
+    text-align: center;
+    width: 50%;
+    font-size: 1.5em;
+    margin: 15px auto;
+}
+.imput-form
+{
+    width: 60%;
+    height:35px;
+    margin:15px auto;
+    border-color: blueviolet;
+    background-color: white;
+    font-size: 1em;
+}
+textarea
+{ 
+    width: 60%;
+    height: 30px;
+    margin:15px auto;
+    border-color: blueviolet;
+    background-color: white;
+    font-size: 1em;
+}    
+footer
+{
+    font-size: 20px;
+    display:flex;
+    justify-content:center;
+}
