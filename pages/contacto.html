@@ -13,10 +13,12 @@
 </head>
 <body>
     <!--fila de logo + nav-->
-    <header>
+    <header class="header">
+		<div class="logo">
+			<a href="../index.html"><img src="../assets/img/logo.png" alt="logo"></a>
+		</div>
 		<nav>
-			<ul>
-				<a title="logo" href="../index.html"><img class="logo" src="../assets/img/Logo.png" alt="logo"></a>
+			<ul class="navBar">
             	<li><a href="../pages/quien-soy.html">¿Quién soy?</a></li>
 				<li><a href="../pages/servicios.html">Servicios</a></li>
 				<li><a href="../pages/trabajos.html">Trabajos Realizados</a></li>
@@ -27,21 +29,20 @@
 <main>
     <!-- cierre de fila logo + nav -->
 	<!-- fila de información de mi sitio -->
-	<div class="section1">
-		<img class="banner" src="../assets/img/Contacto.jpeg" alt="Contacto">	
+	<div class="section5">
 		<div class="texto-encima-contacto">Contacto</div>
 	</div>
 	<!-- formulario de contacto -->
 	<section class="contacto">	
 	<!--Seccion del maps-->
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.4469776040255!2d-68.11731293356031!3d-38.936615939258104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a33ed23b06dc7%3A0x40b9aa4688b752b5!2sNina%20Nails!5e0!3m2!1ses-419!2sar!4v1662058205014!5m2!1ses-419!2sar" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.4469776040255!2d-68.11731293356031!3d-38.936615939258104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a33ed23b06dc7%3A0x40b9aa4688b752b5!2sNina%20Nails!5e0!3m2!1ses-419!2sar!4v1662058205014!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		<article>
 		<h2>Escribime!</h2>
 			<form action="#">
 				<input class="imput-form" type="text" placeholder="Nombre">
 				<input class="imput-form" type="email" placeholder="mail@mail.com" name="email">
 				<input class="imput-form" type="telefono" placeholder="2996747111" name="telefono">
-				<label for="Observaciones">
+				<label for="observaciones">
 					<textarea placeholder="Mensaje"></textarea>
 				</label>
 				<input class="imput-form" type="submit" value="Enviar">
@@ -54,7 +55,7 @@
 </main>
 	<!-- inicio de footer --> 
 	<footer>
-		<nav id="rrss">
+		<div id="rrss">
 			<a href="https://facebook.com/eva.aldana.56" target="_blank">
 			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
 				<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
@@ -80,7 +81,7 @@
 				<path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
 			</svg>
 			2022 Nina Official Nails
-		</nav>	
+		</div>	
 	</footer>
 </body>
 </html>
