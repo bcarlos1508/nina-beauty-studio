@@ -308,7 +308,7 @@ footer
     .section1
     {
         background-image: url("../assets/img/inicio.jpeg");
-        height: 100vh;
+        height: 80vh;
         background-position:center;
         display: grid;
         grid-template-columns: repeat(6,1fr);
@@ -326,7 +326,7 @@ footer
     .section2
     {
         background-image: url("../assets/img/quienSoy.jpeg");
-        height: 100vh;
+        height: 80vh;
         background-position:top;
         display: grid;
         grid-template-columns: repeat(6,1fr);
@@ -354,7 +354,7 @@ footer
     .section3
     {
         background-image: url("../assets/img/servicios.jpeg");
-        height: 100vh;
+        height: 80vh;
         background-position:center;
         display: grid;
         grid-template-columns: repeat(6,1fr);
@@ -382,7 +382,7 @@ footer
     .section4
     {
         background-image: url("../assets/img/trabajosRealizados.jpeg");
-        height: 100vh;
+        height: 80vh;
         background-position:top;
         display: grid;
         grid-template-columns: repeat(6,1fr);
@@ -411,7 +411,7 @@ footer
     .section5
     {
         background-image: url("../assets/img/contacto.jpeg");
-        height: 100vh;
+        height: 80vh;
         background-position:top;
         display: grid;
         grid-template-columns: repeat(6,1fr);
@@ -537,8 +537,5 @@ footer
 /*Responsive para tablet*/
 @media(min-width:577px) and (max-width:1024px)
 {
-    .header
-    {
-        
-    }
-} 
+    
+}
