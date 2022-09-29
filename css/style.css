@@ -532,9 +532,13 @@ footer
         align-items: center;
         text-align: center;
     }
-} 
+}
+ 
 /*Responsive para tablet*/
 @media(min-width:577px) and (max-width:1024px)
 {
-    
+    .header
+    {
+        
+    }
 } 
