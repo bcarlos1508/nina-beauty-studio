@@ -70,7 +70,7 @@ nav
     background-position:top;
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);   
 }
 .texto-encima-quien
 {
@@ -185,6 +185,7 @@ nav
     text-align: center;
     font-size: 30px;
     padding-bottom: 1rem;
+    margin: 5rem;
 }
 .serviciosDer
 {
@@ -219,7 +220,7 @@ nav
     height: 200px;
     border-radius: 200px;
     margin:2%;
-}
+}   
 .galeria img
 {
     width:30%;
@@ -331,6 +332,7 @@ footer
         display: grid;
         grid-template-columns: repeat(6,1fr);
         grid-template-rows: repeat(3,1fr);
+        margin: 1rem;
     }
     .texto-encima-quien
     {
@@ -445,6 +447,7 @@ footer
         text-align: center;
         font-size: 30px;
         padding-bottom: 1rem;
+        margin: 5rem;
     }
     .serviciosDer
     {
@@ -599,6 +602,8 @@ footer
         display: grid;
         grid-template-columns: repeat(6,1fr);
         grid-template-rows: repeat(3,1fr);
+        margin: 1rem;
+        
     }
     .texto-encima-quien
     {
@@ -713,6 +718,7 @@ footer
         text-align: center;
         font-size: 30px;
         padding-bottom: 1rem;
+        margin: 5rem;
     }
     .serviciosDer
     {
