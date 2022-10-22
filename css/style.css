@@ -34,3 +34,206 @@ nav {
     list-style: none; }
   .navBar li a {
     text-decoration: none; }
+
+.section1 {
+  background-image: url("../assets/img/inicio.jpeg");
+  height: 100vh;
+  background-position: top;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr); }
+
+.texto-encima {
+  font-family: "Oleo Script", cursive;
+  grid-column: 1;
+  grid-row: 1;
+  padding-left: 0;
+  font-size: 6rem;
+  color: white;
+  text-align: center; }
+
+.cont-img {
+  display: flex;
+  justify-content: center; }
+  .cont-img img {
+    width: 20%;
+    height: 100%;
+    border-radius: 15px;
+    margin: 1%; }
+
+.section2 {
+  background-image: url("../assets/img/quienSoy.jpeg");
+  height: 100vh;
+  background-position: top;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr); }
+
+.texto-encima-quien {
+  font-family: "Oleo Script", cursive;
+  grid-column: 5;
+  grid-row: 1;
+  padding-left: 0;
+  font-size: 8rem;
+  color: white;
+  text-align: center; }
+
+.texto-encima-quien-2 {
+  font-family: "Oleo Script", cursive;
+  grid-column: 0.25;
+  grid-row: 4;
+  padding-left: 1rem;
+  font-size: 4rem;
+  color: white;
+  text-align: left; }
+
+.textoQuienSoy {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 1rem;
+  margin: 5rem; }
+
+.section3 {
+  background-image: url("../assets/img/servicios.jpeg");
+  height: 100vh;
+  background-position: top;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr); }
+
+.texto-encima-serv {
+  font-family: "Oleo Script", cursive;
+  grid-column: 6;
+  grid-row: 1;
+  padding-left: 0;
+  font-size: 8rem;
+  color: white;
+  text-align: center; }
+
+.texto-encima-serv-2 {
+  font-family: "Oleo Script", cursive;
+  grid-column: 0.33333;
+  grid-row: 3;
+  padding-left: 2rem;
+  font-size: 4rem;
+  color: white;
+  text-align: left; }
+
+.serviciosDer {
+  display: flex;
+  text-align: right;
+  align-items: center;
+  font-size: 35px;
+  margin: 4%;
+  border-style: solid;
+  border-color: black; }
+  .serviciosDer ul li {
+    list-style: none; }
+
+.imgSerDer {
+  width: 17%;
+  height: 200px;
+  border-radius: 200px;
+  margin: 2%; }
+
+.serviciosIzq {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  font-size: 35px;
+  margin: 4%;
+  border-style: solid;
+  border-color: black; }
+  .serviciosIzq ul li {
+    list-style: none; }
+
+.imgSerIzq {
+  width: 17%;
+  height: 200px;
+  border-radius: 200px;
+  margin: 2%; }
+
+.section4 {
+  background-image: url("../assets/img/trabajosRealizados.jpeg");
+  height: 100vh;
+  background-position: top;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr); }
+
+.texto-encima-trabajos {
+  font-family: "Oleo Script", cursive;
+  grid-column: 3;
+  grid-row: 1;
+  padding-left: 0;
+  font-size: 8rem;
+  color: white;
+  text-align: right;
+  padding-right: 2rem; }
+
+.texto-encima-trabajos-2 {
+  font-family: "Oleo Script", cursive;
+  grid-column: 1;
+  grid-row: 4;
+  padding-left: 2rem;
+  font-size: 4rem;
+  color: white;
+  text-align: left; }
+
+.galeria img {
+  width: 30%;
+  height: 100%;
+  border-radius: 15px;
+  margin: 1%; }
+
+.section5 {
+  background-image: url("../assets/img/contacto.jpeg");
+  height: 100vh;
+  background-position: top;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr); }
+
+.texto-encima-contacto {
+  font-family: "Oleo Script", cursive;
+  grid-column: 0.5;
+  grid-row: 1;
+  padding-left: 2rem;
+  font-size: 8rem;
+  color: white;
+  text-align: right; }
+
+.contacto {
+  display: flex;
+  text-align: center;
+  width: 50%;
+  font-size: 1.5em;
+  margin: 15px auto; }
+
+.maps {
+  width: 1000px;
+  height: 450px; }
+
+.imput-form {
+  width: 60%;
+  height: 35px;
+  margin: 15px auto;
+  text-align: center;
+  border-color: blueviolet;
+  background-color: white;
+  font-size: 1em; }
+
+textarea {
+  width: 60%;
+  height: 30px;
+  margin: 15px auto;
+  border-color: blueviolet;
+  background-color: white;
+  font-size: 1em; }
+
+footer {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
