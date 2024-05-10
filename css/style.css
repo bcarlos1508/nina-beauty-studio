@@ -13,6 +13,10 @@ html {
   /*Ahora 1rem=10px*/
 }
 
+a:hover {
+  color: #eebbda; /* Cambia #ff0000 al color que desees */
+}
+
 header img {
   height: 100px;
   object-fit: contain;
@@ -56,7 +60,7 @@ nav {
 }
 
 .texto-encima {
-  font-family: "Oleo Script", cursive;
+  font-family: "Montserrat", sans-serif;
   grid-column: 1;
   grid-row: 1;
   padding-left: 0;
@@ -84,7 +88,7 @@ a {
 .section2 {
   background-image: url("../assets/img/quienSoy.jpeg");
   height: 50vh;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   display: grid;
@@ -93,9 +97,9 @@ a {
 }
 
 .texto-encima-quien {
-  font-family: "Oleo Script", cursive;
-  grid-column: 5;
-  grid-row: 1;
+  font-family: "Montserrat", sans-serif;
+  grid-column: 0.25;
+  grid-row: 4;
   padding-left: 0;
   font-size: 8rem;
   color: white;
@@ -103,7 +107,7 @@ a {
 }
 
 .texto-encima-quien-2 {
-  font-family: "Oleo Script", cursive;
+  font-family: "Montserrat", sans-serif;
   grid-column: 0.25;
   grid-row: 4;
   padding-left: 1rem;
@@ -123,7 +127,7 @@ a {
 .section3 {
   background-image: url("../assets/img/servicios.jpeg");
   height: 50vh;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   display: grid;
@@ -132,7 +136,7 @@ a {
 }
 
 .texto-encima-serv {
-  font-family: "Oleo Script", cursive;
+  font-family: "Montserrat", sans-serif;
   grid-column: 6;
   grid-row: 1;
   padding-left: 0;
@@ -142,11 +146,11 @@ a {
 }
 
 .texto-encima-serv-2 {
-  font-family: "Oleo Script", cursive;
+  font-family: "Montserrat", sans-serif;
   grid-column: 0.3333333333;
   grid-row: 3;
   padding-left: 2rem;
-  font-size: 4rem;
+  font-size: 3rem;
   color: white;
   text-align: left;
 }
@@ -159,14 +163,15 @@ a {
   margin: 4%;
   border-style: solid;
   border-color: black;
+  padding-right: 7%;
 }
 .serviciosDer ul li {
   list-style: none;
 }
 
 .imgSerDer {
-  width: 17%;
-  height: 200px;
+  width: 30rem;
+  height: 30rem;
   border-radius: 200px;
   margin: 2%;
 }
@@ -179,14 +184,15 @@ a {
   margin: 4%;
   border-style: solid;
   border-color: black;
+  padding-left: 7%;
 }
 .serviciosIzq ul li {
   list-style: none;
 }
 
 .imgSerIzq {
-  width: 17%;
-  height: 200px;
+  width: 30rem;
+  height: 30rem;
   border-radius: 200px;
   margin: 2%;
 }
@@ -194,7 +200,7 @@ a {
 .section4 {
   background-image: url("../assets/img/trabajosRealizados.jpeg");
   height: 50vh;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   display: grid;
@@ -203,7 +209,7 @@ a {
 }
 
 .texto-encima-trabajos {
-  font-family: "Oleo Script", cursive;
+  font-family: "Montserrat", sans-serif;
   grid-column: 3;
   grid-row: 1;
   padding-left: 0;
@@ -214,7 +220,7 @@ a {
 }
 
 .texto-encima-trabajos-2 {
-  font-family: "Oleo Script", cursive;
+  font-family: "Montserrat", sans-serif;
   grid-column: 1;
   grid-row: 4;
   padding-left: 2rem;
@@ -238,11 +244,11 @@ a {
   background-size: 100%;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
 .texto-encima-contacto {
-  font-family: "Oleo Script", cursive;
+  font-family: "Montserrat", sans-serif;
   grid-column: 0.5;
   grid-row: 1;
   padding-left: 2rem;
@@ -260,8 +266,20 @@ a {
 }
 
 .maps {
-  width: 1000px;
-  height: 450px;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.contactame {
+  text-align: center;
+  width: 100%;
+  font-size: 1.5em;
+  margin: 90px auto;
+}
+
+.texto {
+  font-size: 1.2em;
 }
 
 footer {

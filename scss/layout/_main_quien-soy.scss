@@ -2,14 +2,14 @@
 {
     background-image: url("../assets/img/quienSoy.jpeg");
     height: 50vh;
-    background-position:top;
+    background-position:center;
     background-repeat: no-repeat;
     background-size: 100%;
     @include propiedades-grid(6,3);
 }
 .texto-encima-quien
 {
-    @include texto-encima(5,1,0,8rem,white,center);
+    @include texto-encima(1/4,4,0,8rem,white,center);
 }
 .texto-encima-quien-2
 {
