@@ -19,18 +19,23 @@
     <!--fila de logo + nav-->
     <header class="header">
 		<div class="logo">
-			<a href="../index.html"><img src="../assets/img/logo.png" alt="logo"></a>
+			<a href="../index.html"><img src="/assets/img/logo.png" alt="logo"></a>
 		</div>
 		<nav>
-			<ul class="navBar">
-            	<li><a href="../pages/quien-soy.html">¿Quién soy?</a></li>
+			<div class="menu-hamburguesa" id="menuToggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul class="navBar" id="menu">
+				<li><a href="../pages/quien-soy.html">¿Quién soy?</a></li>
 				<li><a href="../pages/servicios.html">Servicios</a></li>
 				<li><a href="../pages/trabajos.html">Trabajos Realizados</a></li>
 				<li><a href="../pages/turnos.html">Turnos</a></li>
 				<li><a href="../pages/contacto.html">Contacto</a></li>
 			</ul>
 		</nav>
-    </header>
+	</header>
 <main>
 	<div class="relleno" ></div>
 	<iframe src="https://www.neocita.com/ninaofficialbeautystudio" style=border:none; width=100%; height=790;></iframe>
@@ -44,5 +49,15 @@
 			<script>document.write(new Date().getFullYear())</script> Nina Beauty Studio
 		</div>	
 	</footer>
+	<script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var menuToggle = document.getElementById('menuToggle');
+            var menu = document.getElementById('menu');
+
+            menuToggle.addEventListener('click', function () {
+                menu.classList.toggle('show');
+            });
+        });
+    </script>
 </body>
 </html>

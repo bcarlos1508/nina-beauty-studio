@@ -389,18 +389,17 @@ footer {
   }
   .section2 {
     background-image: url("../assets/img/quienSoy.jpeg");
-    height: 80vh;
+    height: 100%;
     background-position: top;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    margin: 1rem;
   }
   .texto-encima-quien {
     font-family: "Oleo Script", cursive;
     grid-column: 1;
-    grid-row: 1;
-    font-size: 8rem;
+    grid-row: 3;
+    font-size: 2rem;
     color: white;
     text-align: center;
   }
@@ -415,7 +414,7 @@ footer {
   }
   .section3 {
     background-image: url("../assets/img/servicios.jpeg");
-    height: 80vh;
+    height: 100%;
     background-position: center;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -423,9 +422,9 @@ footer {
   }
   .texto-encima-serv {
     font-family: "Oleo Script", cursive;
-    grid-column: 2/6;
+    grid-column: 4/6;
     grid-row: 1;
-    font-size: 8rem;
+    font-size: 5rem;
     color: white;
     text-align: center;
   }
@@ -440,7 +439,7 @@ footer {
   }
   .section4 {
     background-image: url("../assets/img/trabajosRealizados.jpeg");
-    height: 80vh;
+    height: 100%;
     background-position: top;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -448,16 +447,16 @@ footer {
   }
   .texto-encima-trabajos {
     font-family: "Oleo Script", cursive;
-    grid-column: 6;
-    grid-row: 1;
+    grid-column: 1;
+    grid-row: 3;
     padding-right: 2rem;
-    font-size: 7rem;
+    font-size: 2rem;
     color: white;
-    text-align: right;
+    text-align: left;
   }
   .texto-encima-trabajos-2 {
     font-family: "Oleo Script", cursive;
-    grid-column: 1/7;
+    grid-column: 1/2;
     grid-row: 4;
     padding-left: 2rem;
     font-size: 3rem;
@@ -466,7 +465,7 @@ footer {
   }
   .section5 {
     background-image: url("../assets/img/contacto.jpeg");
-    height: 80vh;
+    height: 100%;
     background-position: top;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -474,10 +473,10 @@ footer {
   }
   .texto-encima-contacto {
     font-family: "Oleo Script", cursive;
-    grid-column: 1/7;
+    grid-column: 4/6;
     grid-row: 4;
     padding-right: 2rem;
-    font-size: 8rem;
+    font-size: 4rem;
     color: white;
     text-align: right;
   }
@@ -494,18 +493,17 @@ footer {
   .textoQuienSoy {
     font-family: "Dancing Script", cursive;
     text-align: center;
-    font-size: 30px;
-    padding-bottom: 1rem;
-    margin: 5rem;
+    font-size: 20px;
+    color: black;
   }
   .serviciosDer {
     display: flex;
-    text-align: center;
-    align-items: center;
-    font-size: 35px;
-    margin: 4%;
+    text-align: left;
+    font-size: 20px;
+    margin: 2%;
     border-style: solid;
     border-color: black;
+    padding-right: 1%;
   }
   .serviciosDer ul li {
     list-style: none;
@@ -515,12 +513,12 @@ footer {
   }
   .serviciosIzq {
     display: flex;
-    text-align: center;
-    align-items: center;
-    font-size: 35px;
-    margin: 4%;
+    text-align: left;
+    font-size: 20px;
+    margin: 2%;
     border-style: solid;
     border-color: black;
+    padding-left: 1%;
   }
   .serviciosIzq ul li {
     list-style: none;
@@ -529,19 +527,19 @@ footer {
     display: none;
   }
   .galeria {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Crea 3 columnas de igual tamaño */
+    gap: 10px; /* Espacio entre las fotos */
   }
   .galeria img {
     display: flex;
     flex-direction: column;
-    align-items: center;
     align-content: center;
-    width: 90%;
+    width: 95%;
     height: 100%;
     border-radius: 15px;
     margin: 1%;
+    overflow: hidden;
   }
   .contacto {
     display: flex;
