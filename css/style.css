@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: black;
+  color: #002e1a;
   text-decoration: none;
   font-family: "Antonio", sans-serif;
 }
@@ -14,7 +14,7 @@ html {
 }
 
 a:hover {
-  color: #eebbda; /* Cambia #ff0000 al color que desees */
+  color: black; /* Cambia #ff0000 al color que desees */
 }
 
 header img {
@@ -24,15 +24,17 @@ header img {
 }
 
 nav {
-  width: 80%;
+  width: 89%;
 }
 
 .header {
-  background-color: #ffecf4;
+  background-color: #ffdbf2;
   display: flex;
   width: 100%;
   font-size: 1.6rem;
   align-items: center;
+  position: fixed;
+  z-index: 1000;
 }
 
 .navBar {
@@ -46,6 +48,10 @@ nav {
 }
 .navBar li a {
   text-decoration: none;
+}
+
+.relleno {
+  height: 100px;
 }
 
 .section1 {
@@ -77,12 +83,36 @@ nav {
 }
 
 a {
-  color: black;
+  color: #002e1a;
 }
 
 #carouselExampleControls {
-  max-width: 500px; /* ajusta el ancho máximo según sea necesario */
+  max-width: auto; /* ajusta el ancho máximo según sea necesario */
   margin: auto; /* centrar horizontalmente */
+}
+
+body {
+  background-color: #ffdbf2;
+}
+
+.menu-hamburguesa {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-hamburguesa span {
+  background: #fff;
+  border-radius: 2px;
+  display: block;
+  height: 3px;
+  margin: 5px 0;
+  transition: 0.4s;
+  width: 25px;
+}
+
+.relleno {
+  height: 100px;
 }
 
 .section2 {
@@ -122,6 +152,7 @@ a {
   font-size: 30px;
   padding-bottom: 1rem;
   margin: 5rem;
+  color: black;
 }
 
 .section3 {
@@ -287,12 +318,17 @@ footer {
   display: flex;
   justify-content: center;
   text-align: center;
+  background-color: #ffdbf2;
+}
+
+.rrss {
+  color: black;
 }
 
 /*Responsive para celular*/
 @media (max-width: 576px) {
   .header {
-    background-color: #ffecf4;
+    background-color: #ffdbf2;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -300,30 +336,44 @@ footer {
     align-items: center;
   }
   header img {
-    height: 100px;
+    height: 50px;
     object-fit: contain;
     width: 100%;
   }
-  nav {
-    width: 80%;
+  .menu-hamburguesa {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .menu-hamburguesa span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #333;
   }
   .navBar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    column-gap: 13rem;
-    font-size: 3.6rem;
+    display: none; /* Ocultar el menú por defecto */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
   }
   .navBar li {
-    list-style: none;
+    margin: 10px 0;
   }
   .navBar li a {
     text-decoration: none;
+    color: #333;
+  }
+  .navBar.show {
+    display: block;
+    max-height: 100%;
   }
   .section1 {
     background-image: url("../assets/img/inicio.jpeg");
-    height: 80vh;
+    height: 100%;
     background-position: center;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -332,7 +382,7 @@ footer {
   .texto-encima {
     font-family: "Oleo Script", cursive;
     grid-column: 2/6;
-    grid-row: 1;
+    grid-row: 2;
     font-size: 3rem;
     color: white;
     text-align: center;

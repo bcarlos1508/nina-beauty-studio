@@ -1,3 +1,7 @@
+.relleno 
+{
+    height: 100px;  
+}
 .section1
 {
     background-image: url("../assets/img/inicio.jpeg");
@@ -20,10 +24,29 @@
 }
 a 
 {
-    color: black;
+    color: #002e1a;
 }
 #carouselExampleControls 
 {
-    max-width: 500px; /* ajusta el ancho máximo según sea necesario */
+    max-width: auto; /* ajusta el ancho máximo según sea necesario */
     margin: auto; /* centrar horizontalmente */
+}
+body
+{
+    background-color: #ffdbf2;
+}
+.menu-hamburguesa {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-hamburguesa span {
+    background: #fff;
+    border-radius: 2px;
+    display: block;
+    height: 3px;
+    margin: 5px 0;
+    transition: 0.4s;
+    width: 25px;
 }

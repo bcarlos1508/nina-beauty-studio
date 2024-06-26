@@ -3,7 +3,7 @@
 {
     .header
     {
-        background-color: #ffecf4;
+        background-color: #ffdbf2;
         display:flex;
         flex-direction: column;
         width: 100%;
@@ -12,35 +12,51 @@
     }
     header img
     {
-        height: 100px;
+        height: 50px;
         object-fit: contain;
         width: 100%;
     }
-    nav
+    .menu-hamburguesa 
     {
-        width: 80%;
+        display: inline-block;
+        cursor: pointer;
     }
-    .navBar
+    .menu-hamburguesa span 
     {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        column-gap: 13rem;
-        font-size: 3.6rem;
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px;
+        background-color: #333;
+    }
+    .navBar 
+    {
+        display: none; /* Ocultar el menú por defecto */
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
     }
     .navBar li
     {
-        list-style: none;
+        margin: 10px 0;
     }
-    .navBar li a
+    .navBar li a 
     {
         text-decoration: none;
+        color: #333;
+    }
+    .navBar.show
+    {
+        display: block;
+        max-height: 100%;
     }
     .section1
     {
         background-image: url("../assets/img/inicio.jpeg");
-        height: 80vh;
+        height: 100%;
         background-position:center;
         display: grid;
         grid-template-columns: repeat(6,1fr);
@@ -50,7 +66,7 @@
     {
         font-family: 'Oleo Script', cursive;
         grid-column: 2/6;
-        grid-row: 1;
+        grid-row: 2;
         font-size: 3rem;
         color:white;
         text-align: center;

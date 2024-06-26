@@ -6,15 +6,17 @@ header img
 }
 nav
 {
-    width: 80%;
+    width: 89%;
 }
 .header
 {
-    background-color: #ffecf4;
+    background-color: #ffdbf2;
     display: flex;
     width: 100%;
     font-size: 1.6rem;
     align-items: center;
+    position: fixed;
+    z-index: 1000;
 }
 .navBar
 {
